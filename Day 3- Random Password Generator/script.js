@@ -23,6 +23,7 @@ genBtn.addEventListener("click", () => {
   copyPassword.style.cursor = "pointer";
 });
 
+// function to copy password
 function copyPassword() {
     passBox.select();  
     navigator.clipboard.writeText(passBox.value);
