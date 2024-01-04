@@ -25,7 +25,7 @@ genBtn.addEventListener("click", () => {
 
 // function to copy password
 function copyPassword() {
-    passBox.select();  
-    navigator.clipboard.writeText(passBox.value);
-    alert("PASSWORD COPIED TO CLIPBOARD!");
+  passBox.select();
+  navigator.clipboard.writeText(passBox.value);
+  alert("PASSWORD COPIED TO CLIPBOARD!");
 }
